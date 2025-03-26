@@ -124,7 +124,7 @@ export const handleCanvasEvent = async (
         break;
       case "update":
         try {
-          const { id: shapeId, ...updateData } = data; // Extract shape ID and update fields
+          const { id: shapeId, ...updateData } = data;
 
           if (!shapeId) {
             logger.warn(
