@@ -283,6 +283,3 @@ export const getRooms = async (req: AuthRequest, res: Response) => {
     return;
   }
 };
-function isUserInRoom(roomId: any) {
-  throw new Error("Function not implemented.");
-}
